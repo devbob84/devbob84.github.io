@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,700');
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700');
+
+body {
+    
+    font-family: 'Dosis', sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+    color: #666;
+    position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    margin: 0;
+}
+
+img {
+    max-width: 200px;
+}
+
+/** Header Navigation **/
+
+header .navbar {
+    padding: 30px 0;
+}
+
+header .navbar-default {
+    background-color: transparent;
+    border: none;
+}
+
+header .navbar-default .navbar-nav a {
+    color: #fff;
+}
+
+header .navbar-default .navbar-nav a:hover {
+    color:darkslategray;
+}
+
+header .navbar-default .navbar-nav .active a {
+    font-weight: 700;
+    color: #fff;
+    background: transparent;
+    border-bottom: 4px solid #fff;
+    text-shadow: none;
+}
+
+header .navbar-default .navbar-nav .active a:hover {
+    color: darkslategray;
+    background: transparent;
+    text-shadow: none;
+}
+
+/** Nav In Body **/
+
+header .inbody {
+    background: rgba(55, 102, 177, .1);
+}
+
+
+/** Main Page **/
+
+.page {
+    padding: 50px 0;
+}
+
+.page h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#promise{
+    border-top: 20px solid rgba(55, 102, 177, .7)
+}
+
+p {
+    text-align: center;
+}
+
+.page h2 {
+    color: #3766b1;
+}
+
+.material-icons {
+    font-size: 75px;
+    color: #3766b1;
+    padding-left: 55px;
+}
+
+/** Why Us **/
+
+#sell {
+    background-color: rgba(55, 102, 177, .1)
+}
+
+.selling {
+    margin: 5px 0;   
+    text-align: center;
+}
+
+.selling h3 {
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #3766b1;
+    padding-bottom: 5px;
+}
+
+.selling p {
+    font-size: .8em;
+}
+
+/** Table **/
+
+
+
+/** Testimonials **/
+
+#testimonials {
+    padding: 0;
+}
+
+#testimonials h2 {
+    display: none;
+}
+
+#testimonials blockquote {
+    margin: 0;
+    padding: 0;
+    border-left: none;
+    min-height: 500px;
+    position: relative;
+}
+
+#testimonials blockquote .quote {
+    background-color: rgba(255, 255, 255, .6);
+    padding: 20px 5%;
+    position: absolute;
+    bottom: 0;
+    width: 75%;
+    font-weight: 400;
+    border-radius: 0 50px 0 0;
+}
+
+#testimonials blockquote .quote:hover {
+    background-color: rgba(55, 102, 177, .1)
+}
+
+#testimonials #customer-1 {
+    background: url(../images/notebook-1280538_1920.jpg);
+    background-size: cover;
+}
+
+#testimonials #customer-2 {
+    background: url(../images/jumbotron.jpg);
+    background-size: cover;
+}
+
+#testimonials #customer-3 {
+    background: url(../images/real-estate-pixabay_large.jpg);
+    background-size: cover;
+}
+
+#testimonials #customer-4 {
+    background: url(../images/office_stock.jpg);
+    background-size: cover;
+}
+
+#testimonials .quote {
+    font-size: 1.2em;
+    line-height: 110%;
+    font-weight: 400;
+}
+
+#testimonials .quote .more, #testimonials .quote .customer {
+    opacity: 0;
+    font-size: 0;
+    line-height: 0;
+    padding-top: 10px;
+}
+
+#testimonials .quote:hover .more {
+    font-family: sans-serif;
+    font-weight: 100;
+    display: block;
+    opacity: 1;
+    font-size: .8em;
+    line-height: 120%;
+}
+
+#testimonials .quote:hover .customer {
+    display: block;
+    font-size: .7em;
+    text-align: right;
+}
+
+#testimonials .quote .intro::after {
+    content: '...';
+}
+
+#testimonials .quote:hover .intro::after {
+    content: '';
+}
+
+/** Invest Section **/
+
+#invest {
+    background-color: rgba(55, 102, 177, .1);
+}
+
+
+
+/** Footer **/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
