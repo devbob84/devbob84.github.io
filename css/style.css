@@ -44,7 +44,7 @@ header .navbar-default .navbar-nav .active a {
     font-weight: 700;
     color: #fff;
     background: transparent;
-    
+    border-bottom: 4px solid #fff;
     text-shadow: none;
 }
 
@@ -71,7 +71,6 @@ header .navbar-default .navbar-nav .active a:hover {
 }
 
 #promise{
-    border-top: 10px solid rgba(55, 102, 177, .7);
     text-align: center;
 }
 
