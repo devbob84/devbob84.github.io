@@ -157,8 +157,13 @@ p {
 
 
 
-/** Footer **/
+/** Contact **/
 
+#phone {
+    text-align: center;
+    color: #FF8B3D;
+    font-size: 2.5em;
+}
 
 
 
