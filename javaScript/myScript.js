@@ -4,7 +4,7 @@ $(function() {
     
     //Activte Scrollspy
     
-    $('body').srrollspy({
+    $('body').scrollspy({
         target: 'header .navbar'
     });
     

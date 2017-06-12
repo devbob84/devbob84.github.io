@@ -28,7 +28,6 @@ header .navbar {
 }
 
 header .navbar-default {
-    background-color: transparent;
     border: none;
 }
 
@@ -42,9 +41,8 @@ header .navbar-default .navbar-nav a:hover {
 
 header .navbar-default .navbar-nav .active a {
     font-weight: 700;
-    color: #fff;
+    color: #3766b1;
     background: transparent;
-    border-bottom: 4px solid #fff;
     text-shadow: none;
 }
 
@@ -54,13 +52,40 @@ header .navbar-default .navbar-nav .active a:hover {
     text-shadow: none;
 }
 
-/** Nav In Body **/
+header .navbar-default .navbar-nav a {
+     color: #3766b1;
+}
 
+.navbar-brand img {
+    height: 100px;
+    position: relative;
+    top:-40px;
+}
+.navbar-default{
+    background-color: #fff;
+}
+.navbar-default .navbar-collapse.in,.navbar-default .navbar-collapse.collapsing {
+    margin-top: 30px;
+}
+.btn-contact {
+    background-color: #FF8B3D;
+    color:#fff;
+    border-color: #FF8B3D;
+}
+/** Nav In Body **/
+:target:before {
+content:"";
+display:block;
+height:115px; /* fixed header height*/
+margin:-115px 0 0; /* negative fixed header height */
+}
 
 
 
 /** Main Page **/
-
+#featured {
+    padding-top: 114px;
+}
 .page {
     padding: 50px 0;
 }
