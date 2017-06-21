@@ -160,12 +160,6 @@ blockquote .small, blockquote footer, blockquote small {
     font-size: 100%;
     line-height: 1.42857143;
     color: rgba(55, 102, 177, .7);
-    
-    
-}
-
-blockqoute {
-    border-left: none;
 }
 
 .sold {
@@ -193,8 +187,21 @@ border-right: none;
     font-size: 2.5em;
 }
 
+label.webforms__label {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.form {
+    padding: 0;
+}
 
 
+/** Footer **/
+
+
+<contact {
+    padding-top: 50px;
+}
 
 
 
