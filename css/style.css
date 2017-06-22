@@ -87,8 +87,8 @@ margin:-115px 0 0; /* negative fixed header height */
     position: relative;
 }
 
-.form {
-    padding-bottom: 25px;
+#form {
+    margin-top: 25px;
 }
 
 /** Main Page **/
