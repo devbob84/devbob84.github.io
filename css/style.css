@@ -87,9 +87,14 @@ margin:-115px 0 0; /* negative fixed header height */
     position: relative;
 }
 
-#form {
-    margin-top: 25px;
+#requestoffer .offer {
+    font-size: 3.2em;
+    text-transform: uppercase;
+    text-align: center;
 }
+
+
+
 
 /** Main Page **/
 #featured {
