@@ -159,7 +159,7 @@ a {
 
 .page h2 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 #promise{
@@ -175,6 +175,7 @@ p {
 }
 
 #thumbnails img {
+    background-image: url(/images/AdobeStock_130886127.jpeg);
     max-width: 100%;
     max-height: 100%;
     margin: 0;
@@ -189,7 +190,7 @@ p {
 /** Why Us **/
 
 #sell {
-    background-color: rgba(55, 102, 177, .1);
+    
     width:100%;
     display: inline-block;
 }
