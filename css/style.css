@@ -113,12 +113,14 @@ a {
     padding-top: 110px;
 }
 .netjumbotext{
-    position: absolute;
-    bottom: 150px;
-    left:50px;
-    background-color:rgba(255, 139, 61, 0.7);
-    color:#ffffff;
-    padding: 60px;
+    color: #fff;
+    font-weight: 100;
+    border: solid 5px #fff;
+    border-color: #fff;
+    padding: 10px 20px;
+    background-color:rgba(55, 102, 177, .7);
+    border-radius: 50px;
+    font-size: 2.1em;
 }
 .netjumbotext h1 {
     font-size: 60px;
@@ -247,12 +249,17 @@ blockquote .small, blockquote footer, blockquote small {
 
 #quote-1 {
     border-left: none;
+    text-align: center;
 }
 
 #quote-2 {
 border-right: none;
+    text-align: center;
 }
 
+#testimonials {
+    text-align: center;
+}
 
 /** Contact **/
 
